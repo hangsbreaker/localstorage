@@ -8,7 +8,7 @@ function dropTable(table) {
   localStorage.removeItem(table);
   localStorage.removeItem("inc_" + table);
 }
-// GET ID
+// GET BY ID
 function getById(table, rid) {
   var obj = getData(table);
   var dt = obj.find(function(item) {
